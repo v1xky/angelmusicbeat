@@ -124,7 +124,7 @@ async def play(_, message: Message):
                 try:
                     await USER.join_chat(invitelink)
                     await USER.send_message(
-                        message.chat.id, "» ʜᴇʏ ʙᴀʙʏ, ɪ'ᴍ ʜᴇʀᴇ, ᴛʜᴀɴᴋs ꜰᴏʀ ɪɴᴠɪᴛɪɴɢ ᴍᴇ ɪɴ ᴛʜɪs ɢʀᴏᴜᴘ ʙᴀʙʏ")
+                        message.chat.id, "» ʜᴇʏ ʙᴀʙʏ, ɪ'ᴍ ʜᴇʀᴇ, ᴛʜᴀɴᴋs ꜰᴏʀ ɪɴᴠɪᴛɪɴɢ ᴍᴇ ɪɴ ᴛʜɪs ɢʀᴏᴜᴘ")
 
                 except UserAlreadyParticipant:
                     pass
@@ -153,7 +153,7 @@ async def play(_, message: Message):
 
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://telegra.ph/file/9fc0515a16d6d85bf42c5.jpg"
+        thumb_name = "https://telegra.ph/file/970edfeabab296b03b987.png"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
@@ -162,11 +162,11 @@ async def play(_, message: Message):
              [
                 [
                     InlineKeyboardButton(
-                            text="😘ᴄʀᴇᴀᴛᴏʀ",
-                            url=f"https://t.me/anonymous_was_bot"),
+                            text="♠ᴄʀᴇᴀᴛᴏʀ",
+                            url=f"https://t.me/Tommy_Shelbee"),
                         InlineKeyboardButton(
-                            text="💔ɢʀᴏᴜᴘ",
-                            url=f"https://t.me/DevilsHeavenMF")
+                            text="♪ɢʀᴏᴜᴘ",
+                            url=f"https://t.me/angelsupports")
                    
                 ]
             ]
@@ -204,11 +204,11 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="😘ᴄʀᴇᴀᴛᴏʀ",
-                            url=f"https://t.me/anonymous_was_bot"),
+                            text="♠ᴄʀᴇᴀᴛᴏʀ",
+                            url=f"https://t.me/Tommy_Shelbee"),
                         InlineKeyboardButton(
-                            text="💔ɢʀᴏᴜᴘ",
-                            url=f"https://t.me/DevilsHeavenMF")
+                            text="♪ɢʀᴏᴜᴘ",
+                            url=f"https://t.me/angelsupports")
                    
                 ]
             ]
@@ -216,18 +216,18 @@ async def play(_, message: Message):
 
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://telegra.ph/file/9fc0515a16d6d85bf42c5.jpg"
+            thumb_name = "https://telegra.ph/file/970edfeabab296b03b987.png"
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                            text="😘ᴄʀᴇᴀᴛᴏʀ",
+                            text="♠ᴄʀᴇᴀᴛᴏʀ",
                             url=f"https://t.me/anonymous_was_bot"),
                         InlineKeyboardButton(
-                            text="💔ɢʀᴏᴜᴘ",
-                            url=f"https://t.me/DevilsHeavenMF")
+                            text="♪ɢʀᴏᴜᴘ",
+                            url=f"https://t.me/angelsupports")
                    
                 ]
             ]
@@ -244,9 +244,9 @@ async def play(_, message: Message):
     else:
         if len(message.command) < 2:
             return await lel.edit(
-                "» ɢɪᴠᴇ sᴏᴍᴇ ᴛᴇxᴛ ᴛᴏ sᴇᴀʀᴄʜ ʙᴀʙʏ🤦🏻‍♂️"
+                "» ɢɪᴠᴇ sᴏᴍᴇ ᴛᴇxᴛ ᴛᴏ sᴇᴀʀᴄʜ ʙᴀʙʏ🤦🏻"
             )
-        await lel.edit("🔎")
+        await lel.edit("❄️")
         query = message.text.split(None, 1)[1]
         # print(query)
         try:
@@ -280,11 +280,11 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="😘ᴄʀᴇᴀᴛᴏʀ",
-                            url=f"https://t.me/anonymous_was_bot"),
+                            text="♠ᴄʀᴇᴀᴛᴏʀ",
+                            url=f"https://t.me/Tommy_Shelbee"),
                         InlineKeyboardButton(
-                            text="💔ɢʀᴏᴜᴘ",
-                            url=f"https://t.me/DevilsHeavenMF")
+                            text="♪ɢʀᴏᴜᴘ",
+                            url=f"https://t.me/angelsupports")
                    
                 ]
             ]
