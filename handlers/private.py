@@ -10,31 +10,31 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 @Client.on_message(command("start") & filters.private & ~filters.group & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/f6f020ef5aeeb079b15b9.jpg",
+        photo=f"https://telegra.ph/file/be58748bc2dabc2d3ef4c.jpg",
         caption=f"""**━━━━━━━━━━━━━━━━━━━━━━
-🖤 ʜᴇʏ, ɪ ᴀᴍ sᴜᴘᴇʀ ғᴀsᴛ ᴠᴄ ᴘʟᴀʏᴇʀ ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs...
+ ʜᴇʏ, ɪ ᴀᴍ sᴜᴘᴇʀ ғᴀsᴛ ᴠᴄ ᴘʟᴀʏᴇʀ ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs...
 ᴀʟʟ ᴏꜰ ᴍʏ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ /
 ┏━━━━━━━━━━━━━━━━━┓
-┣★ ᴄʀᴇᴀᴛᴏʀ : [𝝙𝗡𝗢𝗡𝗬𝗠𝗢𝗨𝗦 🖤 𝗕𝗢𝗬](https://t.me/anonymous_was_bot)
+┣★ ᴄʀᴇᴀᴛᴏʀ : [Sᴛᴀʀ Bᴏɪ](https://t.me/Tommy_Shelbee)
 ┗━━━━━━━━━━━━━━━━━┛
 
-💞 ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ ᴅᴍ ᴛᴏ ᴍʏ [ᴏᴡɴᴇʀ](t.me/anonymous_was_bot) ʙᴀʙʏ...
+💞 ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ ᴅᴍ ᴛᴏ ᴍʏ [ᴏᴡɴᴇʀ](t.me/Lost_Kiddo) ʙᴀʙʏ...
 ━━━━━━━━━━━━━━━━━━━━━━**""",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "😫ᴀᴅᴅ ᴍᴇ ᴇʟsᴇ ʏᴏᴜ ɢᴇʏ​😫", url="https://t.me/fallen_music_bot?startgroup=true")
+                        "➕Aᴅᴅ ᴍᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕", url="https://t.me/AngelxRobot?startgroup=true")
                   ],[
                     InlineKeyboardButton(
-                        "😘ᴄʀᴇᴀᴛᴏʀ😘", url="https://t.me/anonymous_was_bot"
+                        "Cʀᴇᴀᴛᴏʀ👽", url="https://t.me/ThomasShebLYY"
                     ),
                     InlineKeyboardButton(
-                        "💔sᴜᴘᴘᴏʀᴛ💔", url="https://t.me/DevilsHeavenMF"
+                        "Hᴇᴀᴠᴇɴ 🚑", url="https://t.me/angelsupports"
                     )
                 ],[ 
                     InlineKeyboardButton(
-                        "🤔sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ​🤔", url="https://t.me/DevilsHeavenMF"
+                        "Sᴏᴜʀᴄᴇ Cᴏᴅᴇ😹", url="https://t.me/addstickers/vibeexepart2_by_fStikBot"
                     )]
             ]
        ),
@@ -44,13 +44,13 @@ async def start_(client: Client, message: Message):
 @Client.on_message(command(["repo"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/f6f020ef5aeeb079b15b9.jpg",
+        photo=f"https://telegra.ph/file/970edfeabab296b03b987.png",
         caption=f"""""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "💞sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ​💞", url=f"https://t.me/DevilsHeavenMF")
+                        "Sᴏᴜʀᴄᴇ Cᴏᴅᴇ😹", url=f"https://t.me/addstickers/vibeexepart2_by_fStikBot")
                 ]
             ]
         ),
@@ -58,12 +58,12 @@ async def help(client: Client, message: Message):
 
 @Client.on_message(filters.command("ping") & ~filters.private & ~filters.channel & ~filters.group)
 async def gstart(_, message: Message):
-      await message.reply_text("""**ɪ ᴀᴍ ᴀʟɪᴠᴇ ʙᴀʙʏ !🖤**""",
+      await message.reply_text("""**ɪ ᴀᴍ ᴀʟɪᴠᴇ ʙᴀʙʏ !**""",
       reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "💔sᴜᴘᴘᴏʀᴛ💔", url="https://t.me/DevilsHeavenMF")
+                        "Sᴜᴘᴘᴏʀᴛs♬", url="https://t.me/angelsupports")
                 ]
             ]
         )
